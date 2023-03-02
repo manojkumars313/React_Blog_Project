@@ -1,0 +1,18 @@
+.nav-links {
+  color: #070707;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100vw;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
