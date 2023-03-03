@@ -1,18 +1,23 @@
 * {
   margin: 0%;
   padding: 0%;
+  font-family: sans-serif;
 }
 
 .logo .the {
   display: inline-block;
   transform: rotate(-90deg);
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 27px;
+  font-family: sans-serif;
+  font-weight: 600;
   padding-bottom: -40px;
+  position: relative;
+  top: -8px;
 }
 
 .logo .title {
-  font-size: 60px;
+  font-size: 55px;
+  font-family: sans-serif;
   font-weight: 700;
   padding-bottom: -20px;
 }
@@ -28,11 +33,13 @@
 
 .list {
   display: flex;
+
   list-style: none;
+  font-family: sans-serif;
 
   padding-top: 30px;
   padding-bottom: 20px;
-  border-bottom: 1.5px solid rgb(186 183 183 / 50%);
+  border-bottom: 1.5px solid rgb(186 183 183 / 18%);
 }
 
 .nav-links {
@@ -44,8 +51,9 @@
 }
 
 .word {
-  font-size: 25px;
+  font-size: 19px;
   color: rgb(81, 79, 79);
+  font-weight: 600;
 }
 .nav-bar {
   display: none;
