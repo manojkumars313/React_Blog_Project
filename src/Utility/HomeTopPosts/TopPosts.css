@@ -105,8 +105,21 @@
   color: rgb(227, 224, 224);
 }
 
+.top-posts-container-2 {
+  position: absolute;
+  top: 80rem;
+  right: 0px;
+  margin-right: 105px;
+  /* border: 1px solid red; */
+  width: 23rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 900px) {
   .top-posts-container,
+  .top-posts-container-2,
   .tp-images-caption-small .title {
     position: relative;
     margin: auto;

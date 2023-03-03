@@ -5,11 +5,11 @@ import ImageGallery from "../../Components/ImageGallery/ImageGallery";
 import ArticlesHorizontal from "../../Components/ArticleHorizontal/ArticleHorizontal";
 import ArticleVerticle from "../../Components/VerticleArticles/ArticleVerticle";
 import ImageSlideshow from "./ImageSlideShow/ImageSlideShow";
-// import LatestStories from "./LatestStories/LatestStories";
-
+import LatestStories from "./LatestStories/LatestStories";
+// import ScrollToTop from "react-scroll-to-top";
 // import { Link } from "react-router-dom";
 
-// import "./PagesCss/Home.css";
+import "./Home.css";
 
 const articlesHorizontal = require("../../Components/API_Data/ArticlesHorizontal.json");
 const articlesVertical = require("../../Components/API_Data/Articles.json");
@@ -34,7 +34,12 @@ function Home() {
         date="September 9 2022"
       />
       <ImageSlideshow images={images} />
-      {/* <LatestStories /> */}
+      <LatestStories />
+      {/* <ScrollToTop
+        className="scroll-arrow "
+        color="#000000"
+        smooth
+      /> */}
     </div>
   );
 }
